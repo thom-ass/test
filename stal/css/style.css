@@ -1,0 +1,291 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+#index-banner{
+  height: 600px;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.ic-logo{
+  margin-top: 5px;
+  max-width: 50px;
+}
+
+.ic-logo2{
+  margin-top: 10px;
+  max-width: 100px;
+}
+
+.carousel.carousel-slider .carousel-item{
+  min-height: 600px;
+}
+hr{
+  border-top: 1px solid #ddd;
+}
+.carousel.carousel2{
+  height: 300px;
+}
+.carousel-arrow{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  cursor: pointer;
+}
+.carousel-arrow.carousel-prev{
+  left: 20px;
+}
+.carousel-arrow.carousel-next{
+  right: 20px;
+}
+.carousel-arrow img{
+  max-width: 13px;
+}
+#index-banner{
+}
+#ourservices{
+  position: relative;
+}
+#ourservices:after{
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 60%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border: 3px dotted rgba(230,50,50,.7);
+  border-radius: 15px;
+}
+#ourservices .container{
+  position: relative;
+  z-index: 5;
+}
+.ourservices-box{
+  position: relative;
+  top: 80px;
+  padding: 20px 0;
+}
+.ourservices-box2{
+  position: relative;
+  top: 40px;
+  padding: 20px 0;
+}
+#ourtrucks{
+  position: relative;
+  padding: 30px 0;
+  -webkit-box-shadow: inset 0 5px 10px rgba(0,0,0,.3);
+  box-shadow: inset 0 5px 10px rgba(0,0,0,.3);
+}
+#ourclients{
+  padding: 40px 0;
+}
+#ourclients h4{
+  margin-bottom: 30px;
+}
+#ourclients img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: url("grayscale.svg#greyscale");
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+#ourclients img:hover{
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: url("grayscale.svg#greyscale");
+  filter: gray;
+  -webkit-filter: grayscale(0);
+}
+#cta .parallax-container{
+  min-height: 300px;
+}
+#cta{
+  -webkit-box-shadow: inset 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: inset 0 5px 10px rgba(0,0,0,.2);
+}
+.c-careers{
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.c-careers--careerslist {
+  margin: 0;
+  list-style: none;
+}
+
+.c-careers--careerslist li {
+  border-top: 1px solid #58595b;
+}
+
+.c-careers--careerslist li:last-child {
+  border-bottom: 1px solid #58595b;
+}
+
+.c-careers--title {
+  position: relative;
+  /*padding-top: .3em;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .c-careers--title {
+    font-size: 18px;
+  }
+}
+
+.c-careers--title:hover {
+  color: #f28b75;
+}
+
+.c-careers--title:after {
+  content: '\002B';
+  position: absolute;
+  top: 55%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+.c-careers--title.is-active:after {
+  content: '-';
+}
+
+.c-careers--content {
+  padding-bottom: 30px;
+  display: none;
+}
+
+.c-careers input[type=text] {
+  width: 100%;
+  border-radius: 0;
+}
+
+.c-careers input[type=text]:focus {
+  border-color: #f28b75;
+}
+
+@media only screen and (max-width: 767px) {
+  .c-careers .ph4 {
+    padding: 0;
+  }
+  .c-careers h6 {
+    font-size: 13px;
+  }
+}
+
+.yellow-border1{
+  width: 100px;
+  height: 3px;
+  margin: 30px auto;
+}
+
+.yellow-border2{
+  width: 100px;
+  height: 3px;
+  margin: 30px 0;
+}
+#tab2 li:before{
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #ffd600;
+  margin-right: 8px;
+}
+#tab1 li:before{
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #ffd600;
+  margin-right: 8px;
+}
+
+.services-tab{
+  margin-top: 20px;
+}
+
+.services-item{
+  background-image: url(../img/services.png);
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  padding: 20px 30px;
+}
+
+.services-item2{
+  background-image: url(../img/services2.png);
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  padding: 20px 30px;
+}
