@@ -330,7 +330,7 @@ hr{
   background-color: #38cc70;
   text-align: center;
   font-weight: 700;
-  padding: 2em;
+  padding: 1em 2em;
   display: block;
   text-decoration: none;
   color: #fff;
@@ -342,7 +342,7 @@ hr{
 .accordion__Heading:before {
   content: "+";
   font-size: 1.5em;
-  line-height: 0.5em;
+  line-height: 20px;
   float: left;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
@@ -476,7 +476,7 @@ hr{
   top: 0;
   bottom: 0;
   width: 10px;
-  background: #afdcf8;
+  background: #EF5350;
   left: 20%;
   margin-left: -10px;
 }
@@ -500,22 +500,22 @@ hr{
 
 .cbp_tmtimeline > li .cbp_tmtime span:first-child {
   font-size: 0.9em;
-  color: #bdd0db;
+  color: #EF5350;
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
   font-size: 1.8em;
-  color: #3594cb;
+  color: #EF5350;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-  color: #6cbfee;
+  color: #EF5350;
 }
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
   margin: 0 0 15px 25%;
-  background: #3594cb;
+  background: #EF5350;
   color: #fff;
   padding: 2em;
   font-size: 1.2em;
@@ -526,7 +526,7 @@ hr{
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-  background: #6cbfee;
+  background: #EF5350;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 { 
@@ -544,13 +544,13 @@ hr{
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-right-color: #3594cb;
+  border-right-color: #EF5350;
   border-width: 10px;
   top: 10px;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-  border-right-color: #6cbfee;
+  border-right-color: #EF5350;
 }
 
 /* The icons */
@@ -568,9 +568,9 @@ hr{
   -webkit-font-smoothing: antialiased;
   position: absolute;
   color: #fff;
-  background: #46a4da;
+  background: #EF5350;
   border-radius: 50%;
-  box-shadow: 0 0 0 8px #afdcf8;
+  box-shadow: 0 0 0 8px #FFdddd;
   text-align: center;
   left: 20%;
   top: 0;
@@ -627,13 +627,13 @@ hr{
     right: auto;
     left: 20px;
     border-right-color: transparent;
-    border-bottom-color: #3594cb;
+    border-bottom-color: #EF5350;
     top: -20px;
   }
 
   .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
     border-right-color: transparent;
-    border-bottom-color: #6cbfee;
+    border-bottom-color: #EF5350;
   }
 
   .cbp_tmtimeline > li .cbp_tmicon {
@@ -644,3 +644,67 @@ hr{
   } 
 }
 
+
+
+@media only screen and (max-width : 600px) {
+  .ic-logo{
+    max-width: 40px;
+  }
+  #index-banner {
+      height: 300px;
+  }
+  .carousel.carousel-slider .carousel-item {
+      min-height: 300px;
+  }
+  #ourservices{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #fff;
+    border-bottom: none;
+  }
+  .ourservices-box {
+      top: 0;
+      padding: 20px 0;
+  }
+  #cta .center.container{
+    padding-bottom: 30px;
+  }
+  .parallax-container{
+    min-height: auto;
+  }
+  #index-banner .white-text{
+      margin-top: 50px !important;
+  }
+  .small-p-20-0{
+    padding: 20px 0 !important;
+  }
+  #aboutus-sectionservices{
+    background-color: #fff;
+  }
+  #aboutus-sectionservices .col.s12{
+    margin-bottom: 20px;
+  }
+  #aboutus-sectionservices .col.s12 .card .card-title{
+    font-size: 18px;
+  }
+  #aboutus-milestone{
+    background-color: #fff;
+  }
+  .small-pb20{
+    padding-bottom: 20px;
+  }
+  #services-panel .tabs{
+    display: block;
+    height: auto;
+  }
+  #services-panel .tab .active{
+    border: 1px solid #ddd;
+  }
+  #services-panel .indicator{
+    display: none;  
+  }
+  .small-100{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
