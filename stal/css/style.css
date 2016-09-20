@@ -107,7 +107,7 @@ hr{
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  border: 3px dotted rgba(230,50,50,.7);
+  border: 3px dotted #003366;
   border-radius: 15px;
 }
 #ourservices .container{
@@ -300,7 +300,7 @@ hr{
   display: block;
   height: 1em;
   width: 100%;
-  background-color: #2ba659;
+  background-color: #003366;
 }
 
 .accordion dd,
@@ -327,7 +327,7 @@ hr{
 
 .accordionTitle,
 .accordion__Heading {
-  background-color: #38cc70;
+  background-color: #003366;
   text-align: center;
   font-weight: 700;
   padding: 1em 2em;
@@ -336,7 +336,7 @@ hr{
   color: #fff;
   -webkit-transition: background-color 0.5s ease-in-out;
   transition: background-color 0.5s ease-in-out;
-  border-bottom: 1px solid #30bb64;
+  border-bottom: 1px solid #336699;
 }
 .accordionTitle:before,
 .accordion__Heading:before {
@@ -351,12 +351,12 @@ hr{
 }
 .accordionTitle:hover,
 .accordion__Heading:hover {
-  background-color: #2ba659;
+  background-color: #336699;
 }
 
 .accordionTitleActive,
 .accordionTitle.is-expanded {
-  background-color: #2ba659;
+  background-color: #003366;
 }
 .accordionTitleActive:before,
 .accordionTitle.is-expanded:before {
@@ -476,7 +476,7 @@ hr{
   top: 0;
   bottom: 0;
   width: 10px;
-  background: #EF5350;
+  background: #336699;
   left: 20%;
   margin-left: -10px;
 }
@@ -500,22 +500,22 @@ hr{
 
 .cbp_tmtimeline > li .cbp_tmtime span:first-child {
   font-size: 0.9em;
-  color: #EF5350;
+  color: #336699;
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
   font-size: 1.8em;
-  color: #EF5350;
+  color: #336699;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-  color: #EF5350;
+  color: #336699;
 }
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
   margin: 0 0 15px 25%;
-  background: #EF5350;
+  background: #336699;
   color: #fff;
   padding: 2em;
   font-size: 1.2em;
@@ -526,7 +526,7 @@ hr{
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-  background: #EF5350;
+  background: #336699;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 { 
@@ -544,13 +544,13 @@ hr{
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-right-color: #EF5350;
+  border-right-color: #336699;
   border-width: 10px;
   top: 10px;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-  border-right-color: #EF5350;
+  border-right-color: #336699;
 }
 
 /* The icons */
@@ -568,9 +568,9 @@ hr{
   -webkit-font-smoothing: antialiased;
   position: absolute;
   color: #fff;
-  background: #EF5350;
+  background: #336699;
   border-radius: 50%;
-  box-shadow: 0 0 0 8px #FFdddd;
+  box-shadow: 0 0 0 8px #98bbde;
   text-align: center;
   left: 20%;
   top: 0;
@@ -627,13 +627,13 @@ hr{
     right: auto;
     left: 20px;
     border-right-color: transparent;
-    border-bottom-color: #EF5350;
+    border-bottom-color: #336699;
     top: -20px;
   }
 
   .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
     border-right-color: transparent;
-    border-bottom-color: #EF5350;
+    border-bottom-color: #336699;
   }
 
   .cbp_tmtimeline > li .cbp_tmicon {

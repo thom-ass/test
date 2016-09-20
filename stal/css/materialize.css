@@ -84,11 +84,11 @@
 }
 
 .red {
-  background-color: #F44336 !important;
+  background-color: #336699 !important;
 }
 
 .red-text {
-  color: #F44336 !important;
+  color: #336699 !important;
 }
 
 .red.lighten-5 {
@@ -128,7 +128,7 @@
 }
 
 .red-text.text-lighten-1 {
-  color: #EF5350 !important;
+  color: #336699 !important;
 }
 
 .red.darken-1 {
@@ -172,7 +172,7 @@
 }
 
 .red.accent-2 {
-  background-color: #FF5252 !important;
+  background-color: #336699 !important;
 }
 
 .red-text.text-accent-2 {
